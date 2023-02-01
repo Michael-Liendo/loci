@@ -47,7 +47,7 @@
 			error={$errors.password}
 			bind:value={$values.password}
 		/>
-		<div class="flex justify-between">
+		<div class="flex justify-between mt-2">
 			<Button disabled={$isSubmitting} type="submit" variant="primary">Login</Button>
 			<Button disabled={$isSubmitting} on:click={() => dispatch('toggleForm')}
 				>Create an account</Button
